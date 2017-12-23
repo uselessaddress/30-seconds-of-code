@@ -8,5 +8,6 @@ const arrayConcat = (arr,...args)=>{
     // console.log(...args)
     return arr.concat(...args)
 }
-console.log([1].concat(2,[3],[[4]]))
+// console.log([1].concat([2,[3],[[4]]]))
+// console.log([1].concat(2,[3],[[4]]))
 console.log(arrayConcat([1],2,[3],[[4]]))
